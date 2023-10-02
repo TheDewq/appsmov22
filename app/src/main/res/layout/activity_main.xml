@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="417dp"
+        android:layout_height="440dp"
+        android:background="#2B34E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/numero2"
+            android:layout_width="238dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="2"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="196dp"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/rptgeneral"
+            android:layout_width="415dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="296dp"
+        android:background="#1733CD"
+        android:backgroundTint="#03A9F4"
+        android:onClick="proceso"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="238dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="87dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="1"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" /><![CDATA[
+    />
+
+
+    ]]>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="412dp"
+        android:layout_height="292dp"
+        android:background="#318AD8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/txtSuma"
+            android:layout_width="87dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="52dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtResta"
+            android:layout_width="87dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="84dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtDivi"
+            android:layout_width="87dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="116dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/txtMulti"
+            android:layout_width="87dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginBottom="116dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
